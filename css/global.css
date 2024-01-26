@@ -1,0 +1,328 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+body {
+  background: #F1F1F1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  z-index: 20;
+  background-color: #F1F1F1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  margin-right: 35px;
+}
+.header ul li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+  font-size: 11px;
+}
+
+.tranding {
+  margin-top: 42px;
+}
+.tranding h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 27px;
+}
+.tranding .myflex {
+  display: flex;
+  justify-content: space-between;
+}
+.tranding .relative {
+  width: 362px;
+  height: 357px;
+  border-radius: 0px 0px 5px 5px;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.tranding .relative h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  font-size: 20px;
+  z-index: 2;
+  top: 32px;
+  left: 41px;
+  position: absolute;
+}
+.tranding .relative .cloock {
+  margin-top: 11px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+.tranding .relative .cloock p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #8A8787;
+  font-size: 10px;
+  margin-left: 11px;
+}
+.tranding .relative .text {
+  margin-top: 67px;
+  margin-left: 37px;
+  width: 217px;
+  height: 50px;
+}
+.tranding .relative .text p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #8A8787;
+  font-size: 10px;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+  font-size: 24px;
+  margin-top: 57px;
+  margin-bottom: 27px;
+}
+
+.myflex-2 {
+  display: flex;
+}
+.myflex-2 .mid-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 47px;
+}
+.myflex-2 .mid-left h3 {
+  position: absolute;
+  z-index: 2;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  font-size: 20px;
+}
+.myflex-2 .container-mid-right {
+  margin-left: 45px;
+  height: 837px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background: #243043;
+}
+
+.end {
+  margin-top: 36px;
+  padding: 60px 0 45px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.end h4 {
+  width: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+}
+.end .myflex-3 {
+  width: 353px;
+  display: flex;
+  justify-content: space-between;
+}
+.end .myflex-3 .footer-info nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.end .myflex-3 .footer-info nav ul a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #818687;
+  font-size: 12px;
+}/*# sourceMappingURL=global.css.map */
